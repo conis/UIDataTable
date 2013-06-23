@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIDataTable.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIDataTableDelegate>
 
 @end

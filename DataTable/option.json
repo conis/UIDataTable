@@ -1,0 +1,61 @@
+{
+	"config": {
+		"captionWidth": 80,
+		"rightPadding": 5,
+		"leftPadding": 5,
+		"rowHeight": 40
+	},
+	"sections": [
+		{
+			"title": "Secion 1",
+			"rows": [
+				{
+					"contentAlign": 2,
+					"type": "kv",
+					"macro": "version",
+					"caption": "Version",
+          "disabled": true,
+          "select": "none"
+				},
+				{
+					"content": "Share with Twitter",
+					"type": "text",
+					"align": "left",
+					"guid": 3
+				},
+				{
+					"content": "Feedback",
+					"type": "text",
+					"align": "right",
+					"style": {
+						"color": [255,0,0,255],
+						"font-size": 18
+					},
+					"guid": 2
+				}
+			]
+		},
+		{
+			"title": "Section 2",
+			"rows": [
+				{
+					"content": "Change Password",
+					"type": "text",
+					"align": "left",
+					"guid": 5
+				},
+				{
+					"caption": "记住密码",
+					"value": false,
+					"type": "switch",
+					"guid": 4
+				},{
+					"type": "input",
+					"caption": "E-mail",
+					"placeholder": "您的邮件",
+					"inputWidth": 200
+				}
+			]
+		}
+	]
+}

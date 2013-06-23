@@ -1,0 +1,73 @@
+/*
+ @author Conis
+ @summary 这是一个示例的JSON文件，用于描述动态创建一个选项
+ */
+{
+	//默认配置，用于设置行高边距等，如果具体项找不到配置，则会读取此配置
+	"config" : {
+		//标题的宽度
+		"captionWidth" : 80,
+		//右边的边距
+		"rightPadding" : 5,
+		//左边的边距
+		"leftPadding" : 5,
+		//行高
+		"rowHeight" : 40
+	},
+	//节点列表
+	"sections" : [{
+		//标题的名称，可选
+		"header": "Secion 1",
+		//section的行列表
+		"rows" : [{
+			//内容的方式
+			"contentAlign" : 2,
+			// 数据类型为键值对应型
+			"type" : "kv",
+			//宏，委托中需要实现此宏
+			"macro" : "version",
+			//标题
+			"caption" : "Version"
+		},{
+			//文本的内容
+			"content" : "Share with Twitter",
+			//类型为单行文本
+			"type" : "text",
+			//对齐方式
+			"align" : "left",
+			//这个guid是在委托里面会用到的，最好是全局唯一
+			"guid" : 3
+		},{
+			//文本内容
+			"content" : "Feedback",
+			//数据类型
+			"type" : "text",
+			//右对齐
+			"align" : "right",
+			//设置样式，支持font/font-size/color
+			"style": {
+				//字体颜色，rgba
+				"color": [172, 16, 219, 1],
+				//字体大小
+				"font-size": 18
+			},
+			//guid
+			"guid" : 2
+		}]
+	},{
+		"header": "Section 2",
+		"rows" : [{
+			"content" : "Change Password",
+			"type" : "text",
+			"align" : "left",
+			"guid" : 5
+		},{
+			"caption" : "记住密码",
+			//默认的取值为不选取
+			"value" : false,
+			//类型为switch
+			"type" : "switch",
+			"guid" : 4
+		}]
+	}]
+}

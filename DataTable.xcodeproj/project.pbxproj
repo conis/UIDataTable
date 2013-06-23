@@ -18,6 +18,10 @@
 		D2D473361776EB1100E061FB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D473351776EB1100E061FB /* Default-568h@2x.png */; };
 		D2D473391776EB1100E061FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D473381776EB1100E061FB /* ViewController.m */; };
 		D2D4733C1776EB1100E061FB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D4733A1776EB1100E061FB /* ViewController.xib */; };
+		D2D473471776EBAC00E061FB /* option.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2D473421776EBAB00E061FB /* option.plist */; };
+		D2D473481776EBAC00E061FB /* UIDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D473441776EBAC00E061FB /* UIDataTable.m */; };
+		D2D4734F1777099200E061FB /* option.json in Resources */ = {isa = PBXBuildFile; fileRef = D2D4734D1777099100E061FB /* option.json */; };
+		D2D473501777099200E061FB /* option.samples.json in Resources */ = {isa = PBXBuildFile; fileRef = D2D4734E1777099100E061FB /* option.samples.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,11 @@
 		D2D473371776EB1100E061FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D2D473381776EB1100E061FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D2D4733B1776EB1100E061FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D2D473421776EBAB00E061FB /* option.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = option.plist; sourceTree = "<group>"; };
+		D2D473431776EBAC00E061FB /* UIDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDataTable.h; sourceTree = "<group>"; };
+		D2D473441776EBAC00E061FB /* UIDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDataTable.m; sourceTree = "<group>"; };
+		D2D4734D1777099100E061FB /* option.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = option.json; sourceTree = "<group>"; };
+		D2D4734E1777099100E061FB /* option.samples.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = option.samples.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,11 @@
 		D2D473251776EB1000E061FB /* DataTable */ = {
 			isa = PBXGroup;
 			children = (
+				D2D4734D1777099100E061FB /* option.json */,
+				D2D4734E1777099100E061FB /* option.samples.json */,
+				D2D473421776EBAB00E061FB /* option.plist */,
+				D2D473431776EBAC00E061FB /* UIDataTable.h */,
+				D2D473441776EBAC00E061FB /* UIDataTable.m */,
 				D2D4732E1776EB1000E061FB /* AppDelegate.h */,
 				D2D4732F1776EB1000E061FB /* AppDelegate.m */,
 				D2D473371776EB1100E061FB /* ViewController.h */,
@@ -163,6 +177,9 @@
 				D2D473341776EB1000E061FB /* Default@2x.png in Resources */,
 				D2D473361776EB1100E061FB /* Default-568h@2x.png in Resources */,
 				D2D4733C1776EB1100E061FB /* ViewController.xib in Resources */,
+				D2D473471776EBAC00E061FB /* option.plist in Resources */,
+				D2D4734F1777099200E061FB /* option.json in Resources */,
+				D2D473501777099200E061FB /* option.samples.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,7 @@
 				D2D4732C1776EB1000E061FB /* main.m in Sources */,
 				D2D473301776EB1000E061FB /* AppDelegate.m in Sources */,
 				D2D473391776EB1100E061FB /* ViewController.m in Sources */,
+				D2D473481776EBAC00E061FB /* UIDataTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
